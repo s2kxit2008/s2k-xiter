@@ -216,3 +216,36 @@ body::before{
         transform:scale(1.2) translate(-50px,-50px);
     }
 }
+
+.cards{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:rgba(0,0,0,0.35);
+    border:1px solid #00e5ff;
+    border-radius:20px;
+    padding:25px;
+    width:320px;
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+    box-shadow:0 0 15px #00e5ff;
+}
+
+.card:hover{
+    transform:translateY(-8px) scale(1.03);
+    box-shadow:0 0 30px #00e5ff;
+}
+
+.card h2{
+    color:#00e5ff;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#ddd;
+}
