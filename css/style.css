@@ -153,3 +153,22 @@ body{animation:fadeIn .7s ease}
     color: #00e5ff;
     text-shadow: 0 0 10px #00e5ff;
 }
+
+/* RAM STATUS NEON */
+.card:nth-child(6){
+    background: rgba(0,20,40,0.9);
+    border: 2px solid #00e5ff;
+    box-shadow: 0 0 15px #00e5ff,
+                0 0 30px #00e5ff;
+}
+
+.card:nth-child(6):hover{
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 0 25px #00e5ff,
+                0 0 50px #00e5ff;
+}
+
+.card:nth-child(6) h3{
+    color: #00e5ff;
+    text-shadow: 0 0 10px #00e5ff;
+}
