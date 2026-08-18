@@ -249,3 +249,8 @@ body::before{
 .card p{
     color:#ddd;
 }
+
+.card h3{
+    color:#00e5ff;
+    text-shadow:0 0 10px #00e5ff;
+}
