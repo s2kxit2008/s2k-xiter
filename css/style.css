@@ -273,3 +273,44 @@ body::before{
     color:#00e5ff;
     text-shadow:0 0 10px #00e5ff;
 }
+
+.more-menu{
+    position:fixed;
+    top:20px;
+    left:20px;
+    z-index:999;
+}
+
+.more-btn{
+    background:#00e5ff;
+    color:#000;
+    border:none;
+    padding:10px 15px;
+    border-radius:10px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.more-content{
+    display:none;
+    background:#111;
+    margin-top:5px;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.more-content a{
+    display:block;
+    color:#fff;
+    padding:10px;
+    text-decoration:none;
+}
+
+.more-content a:hover{
+    background:#00e5ff;
+    color:#000;
+}
+
+.more-menu:hover .more-content{
+    display:block;
+}
