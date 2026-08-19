@@ -290,27 +290,3 @@ body::before{
     font-weight:bold;
     cursor:pointer;
 }
-
-.more-content{
-    display:none;
-    background:#111;
-    margin-top:5px;
-    border-radius:10px;
-    overflow:hidden;
-}
-
-.more-content a{
-    display:block;
-    color:#fff;
-    padding:10px;
-    text-decoration:none;
-}
-
-.more-content a:hover{
-    background:#00e5ff;
-    color:#000;
-}
-
-.more-menu:hover .more-content{
-    display:block;
-}
